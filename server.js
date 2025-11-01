@@ -1,4 +1,4 @@
-﻿import express from "express";
+import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -13,4 +13,4 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(✅ Server running on port ));
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
