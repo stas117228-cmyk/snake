@@ -1,0 +1,5 @@
+﻿services:
+  - type: web
+    name: snake-game
+    env: static
+    staticPublishPath: .

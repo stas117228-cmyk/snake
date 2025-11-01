@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Snake — онлайн игра</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Snake</h1>
+    <div class="topbar">
+      <div id="score">Счёт: 0</div>
+      <button id="restart">Перезапустить</button>
+    </div>
+    <canvas id="game" width="480" height="480" aria-label="Поле игры"></canvas>
+    <p class="hint">Управление: стрелки ←↑→↓ или WASD. На мобильных — свайп.</p>
+    <footer>
+      <small>Сделано с ❤️ — загрузи в GitHub и открой через Render (Static Site).</small>
+    </footer>
+  </main>
+  <script src="/js/game.js"></script>
+</body>
+</html>
